@@ -3,7 +3,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 export const Header = () => {
   return (
-    <header className='flex justify-between items-center p-4 bg-red-900'>
+    <header className='flex justify-between items-center p-4 bg-slate-50'>
         <div className='flex items-center gap-4 ml-auto'>
             <FontAwesomeIcon icon={faBell} />
             <FontAwesomeIcon icon={faMoon} />

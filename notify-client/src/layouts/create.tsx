@@ -16,6 +16,19 @@ export const Create = () => {
       setFileName('Upload document');
     }
   }
+
+  // const handleSetFile = (file) => {
+  //   setFile(file)
+
+  //   if (file === 'application/pdf'){
+  //     setFileContent('')
+
+  //   }
+  // }
+
+  // const handleFileUpload = async () => {
+
+  // }
   
   return (
     <Widget>
@@ -30,6 +43,8 @@ export const Create = () => {
         </div>
 
         <button className='text-white'>Generate Note</button>
+
+
        </div>
     </Widget>
   )

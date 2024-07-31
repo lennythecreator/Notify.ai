@@ -56,7 +56,7 @@ export const Create = () => {
           
          {url && <div className='w-full'>
           <Worker workerUrl="https://unpkg.com/pdfjs-dist@2.16.105/build/pdf.worker.min.js">
-              <div  className='h-[60vh] w-[60vw]'>
+              <div  className='h-[70vh] w-[60vw]'>
                 <Viewer fileUrl={url} plugins={[
                       defaultLayoutPluginInstance,
                   ]} />

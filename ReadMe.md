@@ -4,9 +4,10 @@
 
 ## Features
 
-- **Upload Documents**: Easily upload course documents in various formats.
-- **Interactive Notes**: Convert documents into interactive, searchable notes.
-- **Organize**: Manage and categorize your notes for easy access.
+- **Upload Documents**: Easily upload course documents in various formats. [0%]
+- **Preview Uploaded Documents**: View documents you uploaded [100%]
+- **Interactive Notes**: Convert documents into interactive, searchable notes.[0%]
+- **Organize**: Manage and categorize your notes for easy access.[0%]
 
 ## Tools Used
 

@@ -17,6 +17,8 @@
 
 ## Getting Started
 
+Here are some steps
+
 ### Prerequisites
 
 - Node.js and npm installed on your machine.

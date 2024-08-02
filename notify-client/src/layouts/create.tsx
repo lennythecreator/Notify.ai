@@ -6,6 +6,7 @@ import { useState } from 'react'
 import { Viewer, Worker } from '@react-pdf-viewer/core';
 import { pdfjs } from 'react-pdf';
 import { defaultLayoutPlugin } from '@react-pdf-viewer/default-layout';
+import pdfToText from 'react-pdftotext'
 
 
 import { GlobalWorkerOptions } from 'pdfjs-dist';
@@ -34,6 +35,15 @@ export const Create = () => {
     }
   }
 
+  const extractText = (event) => {
+    const file = event.target.files?.[0];
+    const reader = new FileReader();
+    reader.onload = async function(e) {
+      const text = reader.result;
+      console.log(text);
+    }
+
+  }
   
   
   
@@ -47,7 +57,7 @@ export const Create = () => {
             <span className="text-gray-700">Upload document: {fileName} <FontAwesomeIcon icon={faUpload}/></span>
           </label>
           <input id="file-upload" type="file" accept=".pdf" className="hidden" onChange={handleFileChange}/>
-          <button className='text-white'>Generate Note</button>
+          <button className='text-white' onClick={extractText}>Generate Note</button>
         </div>
 
         

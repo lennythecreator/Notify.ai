@@ -15,7 +15,7 @@
 - **Frontend**: [React](https://reactjs.org/) - A JavaScript library for building user interfaces.
 - **Backend**: [Express](https://expressjs.com/) - A web application framework for Node.js.
 - **Database**: [PostgreSQL](https://www.postgresql.org/) - A powerful, open-source relational database system.
-
+- **DevOps**: [Render]
 ## Getting Started
 
 Here are some steps
